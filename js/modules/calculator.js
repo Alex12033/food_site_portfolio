@@ -55,7 +55,7 @@ function calculator() {
                 getSelector('#height').value,
                 getSelector('#age').value, e.target.id);
 
-            getSelector('.calculating__result span').innerHTML = `${res} kkal`;
+            getSelector('.calculating__result span').innerHTML = `${res}`;
         });
     } 
     
